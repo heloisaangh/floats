@@ -1,0 +1,48 @@
+* /*seletor unuversal*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(213, 153, 228);
+  }
+.menu {
+    height: 300px; /*altura*/
+    background-color: #B2D6FF;    /* Azul */
+  }
+  
+  .sidebar {
+    float: left;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+    background-color: #F09A9D;    /* Vermelho */
+  }
+  
+  .content {
+    float:left;
+    width: 650px; /*largura*/
+    height: 520px;
+    background-color: #F5CF8E;    /* Amarelo */
+  }
+  
+  .footer {
+    clear: both;/*não pode ser movido*/
+    height: 300px;
+    background-color: #b1c4da;    /* Azul claro */
+  }
+
+  .page {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: #EAEDF0;
+  }
+  .column{
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+
+  }
